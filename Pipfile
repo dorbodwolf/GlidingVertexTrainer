@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.douban.com/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+ninja = "*"
+yacs = "*"
+cython = "*"
+matplotlib = "*"
+tqdm = "*"
+opencv-python = "*"
+jupyter = "*"
+numpy = "*"
+pandas = "*"
+lxml = "*"
+ipython = "*"
+torch = "==1.2.0"
+torchvision = "==0.4.0"
+
+[requires]
+python_version = "3.6"
